@@ -8,7 +8,7 @@ import type { ColorSchemeName } from 'react-native';
 
 
 export default function Login() {
-  const theme = useColorScheme();
+   const theme = useColorScheme();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const router = useRouter();
